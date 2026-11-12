@@ -1,0 +1,7 @@
+# Core API (tested with the versions in comments; ranges allow newer compatible releases)
+fastapi>=0.115,<1.0            # tested: 0.159.1
+uvicorn[standard]>=0.30        # tested: 0.54.0
+python-multipart>=0.0.9        # tested: 0.0.32
+pillow>=10.3                   # tested: 12.3.0
+numpy>=1.26                    # tested: 2.5.3
+opencv-python-headless>=4.9    # tested: 5.0.0.93
