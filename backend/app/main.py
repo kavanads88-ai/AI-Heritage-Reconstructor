@@ -8,12 +8,12 @@ from __future__ import annotations
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
 from .config import get_settings
-from .routers import assets, damage, health, identify, monuments
+from .routers import assets, damage, health, identify, monuments, predict
 
 
 def create_app() -> FastAPI:
@@ -42,11 +42,18 @@ def create_app() -> FastAPI:
     app.include_router(monuments.router)
     app.include_router(identify.router)
     app.include_router(damage.router)
+    app.include_router(predict.router)
     app.include_router(assets.router)
 
     (settings.static_dir / "images").mkdir(parents=True, exist_ok=True)
     (settings.static_dir / "models").mkdir(parents=True, exist_ok=True)
     app.mount("/static", StaticFiles(directory=settings.static_dir), name="static")
+
+    @app.get("/scanner", response_class=HTMLResponse, include_in_schema=False)
+    @app.get("/scan", response_class=HTMLResponse, include_in_schema=False)
+    async def scanner_page():
+        scanner_file = settings.static_dir / "scanner.html"
+        return HTMLResponse(content=scanner_file.read_text(encoding="utf-8"))
 
     web_dir = settings.static_dir.parent.parent / "mobile_app" / "build" / "web"
     if web_dir.exists():

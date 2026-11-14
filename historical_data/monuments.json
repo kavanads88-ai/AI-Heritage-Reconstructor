@@ -1,0 +1,199 @@
+[
+  {
+    "id": "stone_chariot",
+    "name": "Stone Chariot",
+    "location": "Vittala Temple complex, Hampi, Karnataka",
+    "period": "Vijayanagara period (14th–17th century CE). Exact construction date: PENDING VERIFICATION against ASI publications.",
+    "summary": "A shrine in the form of a chariot inside the Vittala Temple complex at Hampi, a UNESCO World Heritage Site. Details beyond the points listed under 'Facts' are pending verification.",
+    "architectural_significance": "PENDING VERIFICATION: add a sourced statement about the chariot's architectural significance from an ASI publication or a peer-reviewed source.",
+    "facts": [
+      {
+        "text": "The Stone Chariot stands inside the Vittala Temple complex at Hampi.",
+        "status": "secondary_source_checked",
+        "source_ids": ["drishti_chariot"]
+      },
+      {
+        "text": "It is a shrine dedicated to Garuda, the vehicle (vahana) of Vishnu.",
+        "status": "secondary_source_checked",
+        "source_ids": ["drishti_chariot"]
+      },
+      {
+        "text": "It is attributed to the Vijayanagara king Krishnadevaraya and dated to the 16th century. The attribution and date should be confirmed against an ASI publication before use in the project report.",
+        "status": "secondary_source_checked",
+        "source_ids": ["drishti_chariot"]
+      },
+      {
+        "text": "Hampi is inscribed as a UNESCO World Heritage Site (listing no. 241), Group of Monuments at Hampi. Confirm the inscription year and criteria on the UNESCO page.",
+        "status": "pending_verification",
+        "source_ids": ["unesco_hampi"]
+      },
+      {
+        "text": "Stone type, construction technique, and whether the wheels ever rotated: PENDING VERIFICATION.",
+        "status": "pending_verification",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "unesco_hampi",
+        "title": "UNESCO - Group of Monuments at Hampi",
+        "url": "https://whc.unesco.org/en/list/241",
+        "type": "primary"
+      },
+      {
+        "id": "asi",
+        "title": "Archaeological Survey of India",
+        "url": "https://asi.nic.in",
+        "type": "primary"
+      },
+      {
+        "id": "drishti_chariot",
+        "title": "Drishti IAS - Hampi Stone Chariot (secondary source; confirm against ASI/UNESCO)",
+        "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/hampi-stone-chariot",
+        "type": "secondary"
+      }
+    ],
+    "documented_elements": [
+      {
+        "element": "Stone platform and carved wheels",
+        "status": "Documented (still visible)",
+        "source": "Your own site photographs + ASI/UNESCO text (add citation)"
+      }
+    ],
+    "hypothetical_elements": [
+      {
+        "element": "Any upper structure that no longer exists",
+        "status": "Hypothetical - show only if a published source supports it",
+        "source": "PENDING: cite the ASI page, book or paper used"
+      },
+      {
+        "element": "Colours, painted surfaces and surroundings",
+        "status": "Hypothetical or omitted",
+        "source": "State clearly in the reconstruction notes, or leave out"
+      }
+    ],
+    "reconstruction_target": "primary",
+    "reconstruction_explanation": "PENDING: describe how the reconstruction image and 3D model were prepared (reference photographs, ASI/UNESCO text, manual modelling in Blender). The reconstruction is a manually prepared, historically informed visualisation. It is not AI-generated and not an exact depiction of the original.",
+    "images": {
+      "thumbnail": "stone_chariot_present.jpg",
+      "present": "stone_chariot_present.jpg",
+      "reconstruction": "stone_chariot_reconstruction.jpg"
+    },
+    "model_file": "stone_chariot.glb"
+  },
+  {
+    "id": "vittala_temple",
+    "name": "Vittala Temple",
+    "location": "Hampi, Karnataka",
+    "period": "Vijayanagara period. Construction dates and patrons: PENDING VERIFICATION against ASI publications.",
+    "summary": "A temple complex at Hampi that contains the Stone Chariot. Further historical detail is pending verification.",
+    "architectural_significance": "PENDING VERIFICATION: add a sourced statement from an ASI publication or UNESCO documentation.",
+    "facts": [
+      {
+        "text": "The Vittala Temple complex at Hampi contains the Stone Chariot.",
+        "status": "secondary_source_checked",
+        "source_ids": ["drishti_chariot"]
+      },
+      {
+        "text": "Hampi is inscribed as a UNESCO World Heritage Site (listing no. 241). Confirm whether and how the UNESCO text mentions the Vittala Temple.",
+        "status": "pending_verification",
+        "source_ids": ["unesco_hampi"]
+      },
+      {
+        "text": "Construction period, patrons, deity, and the musical pillars of the hall: PENDING VERIFICATION.",
+        "status": "pending_verification",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "unesco_hampi",
+        "title": "UNESCO - Group of Monuments at Hampi",
+        "url": "https://whc.unesco.org/en/list/241",
+        "type": "primary"
+      },
+      {
+        "id": "asi",
+        "title": "Archaeological Survey of India",
+        "url": "https://asi.nic.in",
+        "type": "primary"
+      },
+      {
+        "id": "drishti_chariot",
+        "title": "Drishti IAS - Hampi Stone Chariot (secondary source; confirm against ASI/UNESCO)",
+        "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/hampi-stone-chariot",
+        "type": "secondary"
+      }
+    ],
+    "documented_elements": [],
+    "hypothetical_elements": [],
+    "reconstruction_target": "secondary",
+    "reconstruction_explanation": "No reconstruction has been prepared for the Vittala Temple. A comparison will appear only after a curated reconstruction image is added to the backend.",
+    "images": {
+      "thumbnail": "vittala_temple_present.jpg",
+      "present": "vittala_temple_present.jpg",
+      "reconstruction": "vittala_temple_reconstruction.jpg"
+    },
+    "model_file": "vittala_temple.glb"
+  },
+  {
+    "id": "lotus_mahal",
+    "name": "Lotus Mahal",
+    "location": "Zenana Enclosure, Hampi, Karnataka",
+    "period": "Vijayanagara period. Construction date and original function: PENDING VERIFICATION against ASI publications.",
+    "summary": "A pavilion in the Zenana (Zanana) Enclosure at Hampi, also known as Chitragni Mahal. Further historical detail is pending verification.",
+    "architectural_significance": "PENDING VERIFICATION: add a sourced statement about its architectural style and significance from an ASI publication.",
+    "facts": [
+      {
+        "text": "The Lotus Mahal is in the Zenana (Zanana) Enclosure at Hampi (Kamalapuram area), Karnataka.",
+        "status": "secondary_source_checked",
+        "source_ids": ["vikaspedia_lotus"]
+      },
+      {
+        "text": "It is also known as Chitragni Mahal.",
+        "status": "secondary_source_checked",
+        "source_ids": ["vikaspedia_lotus"]
+      },
+      {
+        "text": "It is described as one of the finest architectural structures of the Vijayanagara Empire.",
+        "status": "secondary_source_checked",
+        "source_ids": ["vikaspedia_lotus"]
+      },
+      {
+        "text": "Architectural style, construction date, original function and materials: PENDING VERIFICATION.",
+        "status": "pending_verification",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "unesco_hampi",
+        "title": "UNESCO - Group of Monuments at Hampi",
+        "url": "https://whc.unesco.org/en/list/241",
+        "type": "primary"
+      },
+      {
+        "id": "asi",
+        "title": "Archaeological Survey of India",
+        "url": "https://asi.nic.in",
+        "type": "primary"
+      },
+      {
+        "id": "vikaspedia_lotus",
+        "title": "Vikaspedia (ASI section) - Lotus Mahal, Kamalapuram, Karnataka",
+        "url": "https://en.vikaspedia.in/viewcontent/education/archaeological-survey-of-india/lotus-mahal-kamalapuram-karnataka?lgn=en",
+        "type": "secondary"
+      }
+    ],
+    "documented_elements": [],
+    "hypothetical_elements": [],
+    "reconstruction_target": "secondary",
+    "reconstruction_explanation": "No reconstruction has been prepared for the Lotus Mahal. A comparison will appear only after a curated reconstruction image is added to the backend.",
+    "images": {
+      "thumbnail": "lotus_mahal_present.jpg",
+      "present": "lotus_mahal_present.jpg",
+      "reconstruction": "lotus_mahal_reconstruction.jpg"
+    },
+    "model_file": "lotus_mahal.glb"
+  }
+]
