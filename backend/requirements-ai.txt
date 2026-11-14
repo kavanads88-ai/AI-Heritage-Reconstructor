@@ -1,0 +1,6 @@
+# Needed ONLY to run the trained MobileNetV2 model.  Without it the API still starts
+# and /identify answers with clearly labelled MOCK data (or 503 if mock is disabled).
+# TensorFlow supports only certain Python versions - check https://www.tensorflow.org/install/pip
+# Use Python 3.11 or 3.12 on Windows if unsure.
+-r requirements.txt
+tensorflow>=2.16,<3            # latest seen on PyPI when this project was generated: 2.21.0
